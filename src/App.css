@@ -3,10 +3,65 @@
 }
 
 .App-header {
-  /* min-height: 100vh; */
-  /* flex-direction: column; */
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.App-footer {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEEEEE;
+  color: #888888;
+}
+
+.brief-self-intro {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  padding-bottom: 25px;
+}
+
+.image { 
+  width : 32px;
+  margin : 8px;
+}
+
+.my-avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius:50%;
+}
+
+.description {
+  line-height: 1.5rem;
+}
+
+.subtitle {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.subtitle:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: lightblue;
+  border-radius: 2px;
 }
